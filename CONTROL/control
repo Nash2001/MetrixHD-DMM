@@ -1,0 +1,11 @@
+Package: enigma2-skin-metrixhd-cvs
+Version: 20140110-r0
+Description: MetrixHD DMM CVS Skin
+Section: extra
+Priority: optional
+Maintainer: capa
+Architecture: all
+OE: noinfo
+Homepage: www.cw-share.com
+Depends: enigma2(>2.6git20091016)
+Source: noinfo
