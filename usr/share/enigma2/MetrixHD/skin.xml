@@ -1177,7 +1177,7 @@
       <convert type="ClockToText">Format:%e. %b</convert>
     </widget>
     <eLabel backgroundColor="metrixBackground" font="SetrixHD;35" position="70,47" size="800,43" text="help..." transparent="1"/>
-    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="160,115" size="154,500" zPosition="10"/>
+    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc1.png,skin_default/rc2.png" position="160,115" size="154,500" zPosition="10"/>
     <widget backgroundColor="metrixBackground" font="SetrixHD;24" foregroundColor="yellow" halign="center" name="long_key" position=" 90,632" size="300,30" transparent="1"/>
     <widget itemHeight="38" name="list" position="500,120" scrollbarMode="showOnDemand" size="720,494" transparent="1"/>
     <widget alphatest="blend" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11"/>
@@ -2725,7 +2725,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
       <convert type="ClockToText">Format:%e. %b</convert>
     </widget>
     <eLabel backgroundColor="metrixBackground" font="SetrixHD;35" position="70,47" size="800,43" text="CleanupWizard" transparent="1"/>
-    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10"/>
+    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc1.png,skin_default/rc2.png" position="175,115" size="154,500" zPosition="10"/>
     <widget alphatest="blend" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11"/>
     <widget alphatest="blend" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11"/>
     <widget alphatest="blend" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11"/>
@@ -5135,7 +5135,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
       <convert type="ClockToText">Format:%e. %b</convert>
     </widget>
     <eLabel backgroundColor="metrixBackground" font="SetrixHD;35" position="70,47" size="800,43" text="ImageWizard" transparent="1"/>
-    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10"/>
+    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc1.png,skin_default/rc2.png" position="175,115" size="154,500" zPosition="10"/>
     <widget alphatest="blend" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11"/>
     <widget alphatest="blend" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11"/>
     <widget alphatest="blend" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11"/>
@@ -5166,7 +5166,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
       <convert type="ClockToText">Format:%e. %b</convert>
     </widget>
     <eLabel backgroundColor="metrixBackground" font="SetrixHD;35" position="70,47" size="800,43" text="LanguageWizard" transparent="1"/>
-    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10"/>
+    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc1.png,skin_default/rc2.png" position="175,115" size="154,500" zPosition="10"/>
     <widget alphatest="blend" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11"/>
     <widget alphatest="blend" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11"/>
     <widget alphatest="blend" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11"/>
@@ -5197,7 +5197,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
       <convert type="ClockToText">Format:%e. %b</convert>
     </widget>
     <eLabel backgroundColor="metrixBackground" font="SetrixHD;35" position="70,47" size="800,43" text="NetworkWizard" transparent="1"/>
-    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10"/>
+    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc1.png,skin_default/rc2.png" position="175,115" size="154,500" zPosition="10"/>
     <widget alphatest="blend" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11"/>
     <widget alphatest="blend" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11"/>
     <widget alphatest="blend" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11"/>
@@ -5228,7 +5228,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
       <convert type="ClockToText">Format:%e. %b</convert>
     </widget>
     <eLabel backgroundColor="metrixBackground" font="SetrixHD;35" position="70,47" size="800,43" text="StartWizard" transparent="1"/>
-    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10"/>
+    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc1.png,skin_default/rc2.png" position="175,115" size="154,500" zPosition="10"/>
     <widget alphatest="blend" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11"/>
     <widget alphatest="blend" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11"/>
     <widget alphatest="blend" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11"/>
@@ -5259,7 +5259,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
       <convert type="ClockToText">Format:%e. %b</convert>
     </widget>
     <eLabel backgroundColor="metrixBackground" font="SetrixHD;35" position="70,47" size="800,43" text="VideoWizard" transparent="1"/>
-    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10"/>
+    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc1.png,skin_default/rc2.png" position="175,115" size="154,500" zPosition="10"/>
     <widget alphatest="blend" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11"/>
     <widget alphatest="blend" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11"/>
     <widget alphatest="blend" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11"/>
