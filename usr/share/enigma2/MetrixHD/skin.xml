@@ -5962,7 +5962,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   </screen>
       
   <!--  ####  AMS  ####  --> 
-    <screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelectionHD" position="0,0" size="1280,720" title="">
+    <screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelection" position="0,0" size="1280,720" title="">
   <ePixmap pixmap="MetrixHD/back.png" position="40,25" size="1205,650" zPosition="-10"/>
   <widget backgroundColor="metrixBackground2" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
     <convert type="ClockToText">Default</convert>
@@ -6020,7 +6020,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/key_info.png" position="170,630" size="80,40" transparent="1" zPosition="10"/>
   <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/key_menu.png" position="70,630" size="80,40" transparent="1" zPosition="10"/>
 </screen>
-    <screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelection_noMiniTV_HD" position="0,0" size="1280,720" title="">
+    <screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelection_noMiniTV" position="0,0" size="1280,720" title="">
   <ePixmap pixmap="MetrixHD/back.png" position="40,25" size="1205,650" zPosition="-10"/>
   <widget backgroundColor="metrixBackground2" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
     <convert type="ClockToText">Default</convert>
@@ -6075,7 +6075,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/key_info.png" position="170,630" size="80,40" transparent="1" zPosition="10"/>
   <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/key_menu.png" position="70,630" size="80,40" transparent="1" zPosition="10"/>
 </screen>
-    <screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelectionTrashHD" position="0,0" size="1280,720" title="">
+    <screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelectionTrash" position="0,0" size="1280,720" title="">
   <ePixmap pixmap="MetrixHD/back.png" position="40,26" size="1205,650" zPosition="-10"/>
   <widget backgroundColor="metrixBackground2" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
     <convert type="ClockToText">Default</convert>
@@ -6105,7 +6105,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   <widget backgroundColor="metrixBackground" font="SetrixHD; 17" halign="left" name="key_blue" position="981,635" size="130,38" transparent="1" zPosition="1"/>
   <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/key_menu.png" position="70,630" size="80,40" transparent="1" zPosition="10"/>
 </screen>
-	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelectionTagEditorHD" position="0,0" size="1280,720" title="">
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelectionTagEditor" position="0,0" size="1280,720" title="">
   <ePixmap pixmap="MetrixHD/back.png" position="40,25" size="1205,650" zPosition="-10"/>
   <widget backgroundColor="metrixBackground2" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
     <convert type="ClockToText">Default</convert>
@@ -6141,7 +6141,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   
   <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/key_menu.png" position="70,630" size="80,40" transparent="1" zPosition="10"/>
 </screen>
-	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelectionEventViewHD" position="0,0" size="1280,720" title="">
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelectionEventView" position="0,0" size="1280,720" title="">
   <ePixmap pixmap="MetrixHD/back.png" position="40,25" size="1205,650" zPosition="-10"/>
   <widget backgroundColor="metrixBackground2" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
     <convert type="ClockToText">Default</convert>
@@ -6198,7 +6198,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   <widget backgroundColor="metrixBackground" font="SetrixHD;24" halign="left" position="980,635" render="Label" size="130,38" source="key_blue" transparent="1" valign="top"/>
 	
 </screen>
-	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelectionAboutHD" position="0,0" size="1280,720" title="">
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelectionAbout" position="0,0" size="1280,720" title="">
   <ePixmap pixmap="MetrixHD/back.png" position="40,25" size="1205,650" zPosition="-10"/>
   <widget backgroundColor="metrixBackground2" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
     <convert type="ClockToText">Default</convert>
@@ -6228,7 +6228,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 
   
   </screen>
-	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelectionOwnButtonNameHD" position="0,0" size="1280,720" title="">
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelectionOwnButtonName" position="0,0" size="1280,720" title="">
   <ePixmap pixmap="MetrixHD/back.png" position="40,25" size="1205,650" zPosition="-10"/>
   <widget backgroundColor="metrixBackground2" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
     <convert type="ClockToText">Default</convert>
@@ -6255,7 +6255,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 
   
   </screen>
-	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelectionButtonSetupHD" position="0,0" size="1280,720" title="">
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelectionButtonSetup" position="0,0" size="1280,720" title="">
   <ePixmap pixmap="MetrixHD/back.png" position="40,25" size="1205,650" zPosition="-10"/>
   <widget backgroundColor="metrixBackground2" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
     <convert type="ClockToText">Default</convert>
@@ -6278,7 +6278,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   <widget backgroundColor="metrixBackground" font="SetrixHD; 17" halign="left" name="key_green" position="637,635" size="216,27" transparent="1" zPosition="1"/>
   <widget alphatest="on" name="OKIcon" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/AdvancedMovieSelection/buttons/key_ok.png" position="70,480" size="35,25" transparent="1" zPosition="10"/>
 </screen>
- 	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelectionSetupHD" position="0,0" size="1280,720" title="">
+ 	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelectionSetup" position="0,0" size="1280,720" title="">
   <ePixmap pixmap="MetrixHD/back.png" position="40,25" size="1205,650" zPosition="-10"/>
   <widget backgroundColor="metrixBackground2" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
     <convert type="ClockToText">Default</convert>
@@ -6312,7 +6312,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   <widget font="Regular;22" halign="left" position="840,240" render="Label" size="397,110" source="IMDbtxt" transparent="1" valign="top" zPosition="2"/>
   <widget font="Regular;22" halign="left" position="840,362" render="Label" size="397,110" source="OFDbtxt" transparent="1" valign="top" zPosition="2"/>
 </screen>	
-	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelectionDownloadHD" position="0,0" size="1280,720" title="">
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelectionDownload" position="0,0" size="1280,720" title="">
   <ePixmap pixmap="MetrixHD/back.png" position="40,26" size="1205,650" zPosition="-10"/>
   <widget backgroundColor="metrixBackground2" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
     <convert type="ClockToText">Default</convert>
@@ -6343,7 +6343,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   <widget backgroundColor="metrixBackground" font="SetrixHD; 17" halign="left" name="key_green" position="637,635" size="130,38" transparent="1" zPosition="1"/>
   <widget backgroundColor="metrixBackground" font="SetrixHD; 17" halign="left" name="key_yellow" position="810,635" size="130,38" transparent="1" zPosition="1"/>
 </screen>
-	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelection1HD" position="0,0" size="1280,720" title="">
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelection1" position="0,0" size="1280,720" title="">
   <ePixmap pixmap="MetrixHD/back.png" position="40,25" size="1205,650" zPosition="-10"/>
   <widget backgroundColor="metrixBackground2" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
     <convert type="ClockToText">Default</convert>
@@ -6402,7 +6402,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/key_ok.png" position="290,630" size="80,40" transparent="1" zPosition="10"/>
 
  </screen>	
-	<screen backgroundColor="transparent" flags="wfNoBorder" name="TMDbMainHD" position="0,0" size="1280,720" title="">
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="TMDbMain" position="0,0" size="1280,720" title="">
         <ePixmap pixmap="MetrixHD/back.png" position="40,25" size="1205,650" zPosition="-10"/>
         <widget backgroundColor="metrixBackground2" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
             <convert type="ClockToText">Default</convert>
@@ -6442,7 +6442,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   <widget backgroundColor="metrixBackground" font="SetrixHD;22" halign="left" position="980,635" render="Label" size="130,38" source="key_blue" transparent="1" valign="top"/>
 	
   </screen>
-  	<screen backgroundColor="transparent" flags="wfNoBorder" name="TheTVDBMainHD" position="0,0" size="1280,720" title="">
+  	<screen backgroundColor="transparent" flags="wfNoBorder" name="TheTVDBMain" position="0,0" size="1280,720" title="">
         <ePixmap pixmap="MetrixHD/back.png" position="40,25" size="1205,650" zPosition="-10"/>
         <widget backgroundColor="metrixBackground2" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
             <convert type="ClockToText">Default</convert>
@@ -6483,7 +6483,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
         <widget backgroundColor="metrixBackground" font="SetrixHD;24" halign="left" position="90,478" render="Label" size="300,28" source="key_blue" transparent="1" valign="top"/>
         
     </screen>
-    <screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelection_Rename_HD" position="0,0" size="1280,720" title="">
+    <screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelection_Rename" position="0,0" size="1280,720" title="">
 
     <ePixmap pixmap="MetrixHD/back.png" position="40,25" size="1205,650" zPosition="-10"/>
   
@@ -6513,7 +6513,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget alphatest="on" name="HelpWindow" pixmap="skin_default/vkey_icon.png" position="250,450" size="1,1" transparent="1" zPosition="1"/>
 
   </screen>	
-	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelection_ClientSetup_HD" position="0,0" size="1280,720" title="">
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelection_ClientSetup" position="0,0" size="1280,720" title="">
   <ePixmap pixmap="MetrixHD/back.png" position="40,25" size="1205,650" zPosition="-10"/>
   <widget backgroundColor="metrixBackground2" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
     <convert type="ClockToText">Default</convert>
@@ -6545,7 +6545,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   <widget backgroundColor="metrixBackground" font="SetrixHD;24" halign="left" position="810,635" render="Label" size="130,38" source="key_yellow" transparent="1" valign="top"/>
 	  
   </screen>	
-	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelectionAboutDetails_HD" position="0,0" size="1280,720" title="">
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelectionAboutDetails" position="0,0" size="1280,720" title="">
   <ePixmap pixmap="MetrixHD/back.png" position="40,25" size="1205,650" zPosition="-10"/>
   <widget backgroundColor="metrixBackground2" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
     <convert type="ClockToText">Default</convert>
@@ -6569,7 +6569,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   <widget alphatest="blend" name="bouquet-" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/AdvancedMovieSelection/buttons/key_bouquet-.png" position="100,630" size="35,25" transparent="1"/>
 	
   </screen>
-  	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelection_Preview_noDescription_noCover_HD" position="0,0" size="1280,720" title="">
+  	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelection_Preview_noDescription_noCover" position="0,0" size="1280,720" title="">
   <ePixmap pixmap="MetrixHD/back.png" position="40,25" size="1205,650" zPosition="-10"/>
   <widget backgroundColor="metrixBackground2" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
     <convert type="ClockToText">Default</convert>
@@ -6608,7 +6608,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	
  
  </screen>	
- 	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelection_Preview_noCover_HD" position="0,0" size="1280,720" title="">
+ 	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelection_Preview_noCover" position="0,0" size="1280,720" title="">
   <ePixmap pixmap="MetrixHD/back.png" position="40,25" size="1205,650" zPosition="-10"/>
   <widget backgroundColor="metrixBackground2" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
     <convert type="ClockToText">Default</convert>
@@ -6669,7 +6669,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		
   
   </screen>
-  	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelection_Preview_noDescription_HD" position="0,0" size="1280,720" title="">
+  	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelection_Preview_noDescription" position="0,0" size="1280,720" title="">
   <ePixmap pixmap="MetrixHD/back.png" position="40,25" size="1205,650" zPosition="-10"/>
   <widget backgroundColor="metrixBackground2" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
     <convert type="ClockToText">Default</convert>
@@ -6710,7 +6710,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		
   
   </screen>
-  	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelection_Preview_HD" position="0,0" size="1280,720" title="">
+  	<screen backgroundColor="transparent" flags="wfNoBorder" name="AdvancedMovieSelection_Preview" position="0,0" size="1280,720" title="">
   <ePixmap pixmap="MetrixHD/back.png" position="40,25" size="1205,650" zPosition="-10"/>
   <widget backgroundColor="metrixBackground2" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
     <convert type="ClockToText">Default</convert>
@@ -6773,7 +6773,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   <ePixmap alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/AdvancedMovieSelection/buttons/key_menu.png" position="1145,635" size="35,25" transparent="1" zPosition="3"/>
   <ePixmap alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/AdvancedMovieSelection/buttons/key_radio.png" position="1185,635" size="35,25" transparent="1" zPosition="3"/>
   </screen>
-  	<screen backgroundColor="metrixBackground" flags="wfNoBorder" name="AdvancedTextInputHelpDialogHD" position="center,480" size="394,124" zPosition="100">
+  	<screen backgroundColor="metrixBackground" flags="wfNoBorder" name="AdvancedTextInputHelpDialog" position="center,480" size="394,124" zPosition="100">
   <eLabel backgroundColor="#c0c0c0" position="0,0" size="392,122" zPosition="-1"/>
   <widget font="SetrixHD;18" halign="center" name="key1" position="2,2" size="130,30" valign="center"/>
   <widget font="SetrixHD;18" halign="center" name="key2" position="132,2" size="130,30" valign="center"/>
@@ -6788,7 +6788,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   <widget font="SetrixHD;14" halign="center" name="key0" position="132,92" size="130,30" valign="center"/>
   <widget font="SetrixHD;18" halign="center" name="help2" position="262,92" size="130,30" valign="center"/>
   </screen>
-  	<screen name="AdvancedKeyBoardHD" position="center,center" size="945,550" title="Virtual KeyBoard" zPosition="99">
+  	<screen name="AdvancedKeyBoard" position="center,center" size="945,550" title="Virtual KeyBoard" zPosition="99">
 	<ePixmap alphatest="on" pixmap="skin_default/vkey_text.png" position="9,50" size="542,52" zPosition="-4"/>
 	<widget alphatest="on" borderColor="yellow" borderWidth="2" position="490,0" render="Pixmap" size="60,40" source="country">
 	<convert type="ValueToPixmap">LanguageCode</convert>
@@ -6797,7 +6797,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	<widget font="SetrixHD;24" halign="left" name="text" noWrap="1" position="12,60" size="736,35" transparent="1"/>
 	<widget name="list" position="10,110" selectionDisabled="1" size="915,225" transparent="1"/>
   </screen>
-	<screen flags="wfNoBorder" name="BackupRestoreHD" position="center,center" size="1280,720" title=" ">
+	<screen flags="wfNoBorder" name="BackupRestore" position="center,center" size="1280,720" title=" ">
 	<widget font="Regular;26" position="60,60" render="Label" size="1160,30" source="Title" transparent="1"/>
 	<widget backgroundColor="#ff000000" position="60,100" render="Pig" size="380,215" source="session.VideoPicture" zPosition="3"/>
 	<widget enableWrapAround="1" name="config" position="470,100" scrollbarMode="showOnDemand" size="750,400"/>
@@ -6808,7 +6808,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	<widget font="Regular;24" halign="left" position="80,378" render="Label" size="300,28" source="key_green" transparent="1" valign="center" zPosition="1"/>
 	<widget font="Regular;24" halign="left" position="80,428" render="Label" size="300,28" source="key_yellow" transparent="1" valign="center" zPosition="1"/>
   </screen>
-  	<screen backgroundColor="transparent" flags="wfNoBorder" name="SelectionListScreenHD" position="0,0" size="1280,720" title="">
+  	<screen backgroundColor="transparent" flags="wfNoBorder" name="SelectionListScreen" position="0,0" size="1280,720" title="">
   <ePixmap pixmap="MetrixHD/back.png" position="40,25" size="1205,650" zPosition="-10"/>
   <widget backgroundColor="metrixBackground2" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
     <convert type="ClockToText">Default</convert>
